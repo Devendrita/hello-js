@@ -1,0 +1,14 @@
+---
+apiVersion: featuremanagement.cloudbees.io/v1alpha1
+kind: flag
+
+flag: deveflag_test
+flagType: boolean
+description: my first flag
+labels:
+
+availableValues:
+  - true
+  - false
+
+isPermanent: false
