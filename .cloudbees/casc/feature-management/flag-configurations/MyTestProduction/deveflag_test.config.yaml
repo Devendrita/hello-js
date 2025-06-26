@@ -4,7 +4,7 @@ kind: flag-configuration
 
 flag: deveflag_test
 
-enabled: true
+enabled: false
 
 stickinessProperty: rox.distinct_id
 
