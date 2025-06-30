@@ -1,0 +1,14 @@
+---
+apiVersion: featuremanagement.cloudbees.io/v1alpha1
+kind: flag
+
+flag: Kuaderno_flag
+flagType: boolean
+description: Flag cerated for another user
+labels:
+
+availableValues:
+  - true
+  - false
+
+isPermanent: false
