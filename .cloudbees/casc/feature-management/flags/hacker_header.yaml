@@ -6,8 +6,12 @@ flag: hacker_header
 flagType: string
 description: 
 labels:
+  - hackers
 
 availableValues:
   - orange
+  - black
+  - green
+  - pink
 
 isPermanent: false
