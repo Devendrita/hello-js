@@ -1,0 +1,20 @@
+---
+apiVersion: featuremanagement.cloudbees.io/v1alpha1
+kind: flag-configuration
+
+flag: hacker_header
+
+enabled: false
+
+stickinessProperty: rox.distinct_id
+
+defaultValue: orange
+
+conditions:
+  - allOf:
+      - property:
+          name: custom02
+          operator: in-array
+          operands:
+            - "22"
+    flagValue: black
