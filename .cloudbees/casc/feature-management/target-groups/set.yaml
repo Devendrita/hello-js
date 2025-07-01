@@ -1,0 +1,15 @@
+---
+apiVersion: featuremanagement.cloudbees.io/v1alpha1
+kind: target-group
+
+name: set
+
+description: testing for platform users role
+
+conditions:
+  allOf:
+    - property:
+        name: custom02
+        operator: in-array
+        operands:
+            - "22"
