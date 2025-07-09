@@ -1,0 +1,21 @@
+---
+apiVersion: featuremanagement.cloudbees.io/v1alpha1
+kind: flag-configuration
+
+flag: hacker_header
+
+enabled: false
+
+stickinessProperty: rox.distinct_id
+
+defaultValue:
+  - percentage: 25
+    option: orange
+  - percentage: 25
+    option: black
+  - percentage: 25
+    option: green
+  - percentage: 25
+    option: pink
+
+conditions: []
